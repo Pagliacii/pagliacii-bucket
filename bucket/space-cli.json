@@ -24,14 +24,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/deta/space-cli/releases/download/v$matchVersion/space-windows-x86_64.zip"
+                "url": "https://github.com/deta/space-cli/releases/download/v$version/space-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/deta/space-cli/releases/download/v$matchVersion/space-windows-arm64.zip"
+                "url": "https://github.com/deta/space-cli/releases/download/v$version/space-windows-arm64.zip"
             }
         },
         "hash": {
-            "url": "https://github.com/deta/space-cli/releases/download/v$matchVersion/checksums.txt"
+            "url": "$baseurl/checksums.txt"
         }
     }
 }
