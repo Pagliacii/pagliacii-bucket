@@ -17,7 +17,7 @@
             "hash": "f3e513c60c831ef737731cdc32c3641fdc2507e53e5a99f904634eff53c302db"
         }
     },
-    "bin": "space.exe",
+    "bin": "bin\\space.exe",
     "extract_to": "bin",
     "env_add_path": "bin",
     "checkver": "github",
