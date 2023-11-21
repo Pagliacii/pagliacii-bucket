@@ -15,7 +15,7 @@
   "extract_dir": "nvim-win64",
   "checkver": {
     "url": "https://github.com/neovim/neovim/releases/tag/nightly",
-    "regex": "NVIM v\\d+\\.\\d+\\.\\d+-dev-\\w+"
+    "regex": "NVIM (v\\d+\\.\\d+\\.\\d+-dev-\\w+)"
   },
   "autoupdate": {
     "architecture": {
