@@ -1,0 +1,24 @@
+name: Update README for APPs table
+
+on:
+  push:
+    paths:
+      - "bucket/*.json"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+      - name: Update README
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit and Push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update README for APPs table"
