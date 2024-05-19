@@ -9,7 +9,7 @@
       "url": "https://github.com/MordechaiHadad/bob/releases/download/v2.9.1/bob-windows-x86_64.zip"
     }
   },
-  "bin": "bob.exe",
+  "bin": "bob-windows-x86_64\\bob.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
