@@ -9,7 +9,7 @@
       "url": "https://github.com/tuna-f1sh/cyme/releases/download/v1.8.2/cyme-v1.8.2-x86_64-pc-windows-gnu.zip"
     }
   },
-  "bin": "cyme.exe",
+  "bin": "cyme-v$version-x86_64-pc-windows-gnu\\cyme.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
