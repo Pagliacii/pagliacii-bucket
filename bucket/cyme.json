@@ -6,10 +6,11 @@
   "notes": "Linux/Windows and pre-compiled targets require [libusb 1.0.0](https://libusb.info/)",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/tuna-f1sh/cyme/releases/download/v1.8.2/cyme-v1.8.2-x86_64-pc-windows-gnu.zip"
+      "url": "https://github.com/tuna-f1sh/cyme/releases/download/v1.8.2/cyme-v1.8.2-x86_64-pc-windows-gnu.zip",
+      "hash": "1019bbaa1f0e4d9771fb19135444be90c3ba171cc74b423fc0af4a106f75acb0"
     }
   },
-  "bin": "cyme-v$version-x86_64-pc-windows-gnu\\cyme.exe",
+  "bin": "cyme-v1.8.2-x86_64-pc-windows-gnu\\cyme.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
