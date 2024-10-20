@@ -21,9 +21,10 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 | :--: | :-----: | :---------: |
 | [bob](https://github.com/MordechaiHadad/bob) | v2.9.1 | Bob is a cross-platform and easy-to-use Neovim version manager, allowing for easy switching between versions right from the command line. |
 | [bob-openssl](https://github.com/MordechaiHadad/bob) | v2.9.1 | Bob is a cross-platform and easy-to-use Neovim version manager, allowing for easy switching between versions right from the command line. |
-| [cyme](https://github.com/tuna-f1sh/cyme) | v1.8.2 | List system USB buses and devices; a lib and modern cross-platform lsusb that attempts to maintain compatibility with, but also add new features |
+| [cyme](https://github.com/tuna-f1sh/cyme) | 2.0.0 | List system USB buses and devices; a lib and modern cross-platform lsusb that attempts to maintain compatibility with, but also add new features |
 | [iaito](https://github.com/radareorg/iaito) | 5.8.8 | iaito is the official graphical interface for radare2, a libre reverse engineering framework. |
-| [neovim-nightly](https://github.com/neovim/neovim) | v0.11.0-dev-763 | Vim-fork focused on extensibility and usability |
+| [kazumi](https://github.com/Predidit/Kazumi) | 1.3.9 | 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕。 |
+| [neovim-nightly](https://github.com/neovim/neovim) | v0.11.0-dev-996 | Vim-fork focused on extensibility and usability |
 | [space-cli](https://github.com/deta/space-cli) | 0.4.2 | A CLI tool for deta.space |
 <!-- APPS_TABLE_END -->
 
