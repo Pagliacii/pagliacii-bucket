@@ -9,7 +9,6 @@
     }
   },
   "bin": "kazumi.exe",
-  "extract_to": "bin",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
