@@ -1,25 +1,24 @@
 {
-  "version": "5.8.8",
-  "description": "iaito is the official graphical interface for radare2, a libre reverse engineering framework.",
-  "homepage": "https://github.com/radareorg/iaito",
-  "license": "GPL-3.0",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/radareorg/iaito/releases/download/5.8.8/iaito.zip",
-      "hash": "55EC4DA37C08A54D09107FC62D347A17116A8E71879BE1FD2D32F24B19655603"
-    }
-  },
-  "bin": "bin\\iaito.exe",
-  "extract_dir": "iaito",
-  "extract_to": "bin",
-  "env_add_path": "bin",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "5.8.8",
+    "description": "iaito is the official graphical interface for radare2, a libre reverse engineering framework.",
+    "homepage": "https://github.com/radareorg/iaito",
+    "license": "GPL-3.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/radareorg/iaito/releases/download/$version/iaito.zip"
-      }
+        "64bit": {
+            "url": "https://github.com/radareorg/iaito/releases/download/5.8.8/iaito.zip",
+            "hash": "55EC4DA37C08A54D09107FC62D347A17116A8E71879BE1FD2D32F24B19655603"
+        }
+    },
+    "bin": "bin\\iaito.exe",
+    "extract_dir": "iaito",
+    "extract_to": "bin",
+    "env_add_path": "bin",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/radareorg/iaito/releases/download/$version/iaito.zip"
+            }
+        }
     }
-  }
 }
-
