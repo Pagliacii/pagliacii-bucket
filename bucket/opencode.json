@@ -3,6 +3,11 @@
     "description": "An AI coding agent designed for the terminal",
     "homepage": "https://github.com/sst/opencode",
     "license": "MIT",
+    "depends": [
+        "unzip",
+        "ripgrep",
+        "fzf"
+    ],
     "notes": "Open source AI coding tool that works with various AI providers like Anthropic, OpenAI, and Google",
     "architecture": {
         "64bit": {
