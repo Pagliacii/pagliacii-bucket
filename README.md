@@ -25,6 +25,6 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 | [iaito](https://github.com/radareorg/iaito) | 5.8.8 | iaito is the official graphical interface for radare2, a libre reverse engineering framework. |
 | [kazumi](https://github.com/Predidit/Kazumi) | 1.3.9 | 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕。 |
 | [neovim-nightly](https://github.com/neovim/neovim) | v0.12.0-dev-906 | Vim-fork focused on extensibility and usability |
-| [opencode](https://github.com/sst/opencode) | 0.3.79 | An AI coding agent designed for the terminal |
+| [opencode](https://opencode.ai/) | 0.3.79 | An AI coding agent designed for the terminal |
 <!-- APPS_TABLE_END -->
 
