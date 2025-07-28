@@ -1,7 +1,7 @@
 {
     "version": "0.3.79",
     "description": "An AI coding agent designed for the terminal",
-    "homepage": "https://github.com/sst/opencode",
+    "homepage": "https://opencode.ai/",
     "license": "MIT",
     "depends": [
         "unzip",
@@ -16,6 +16,7 @@
         }
     },
     "bin": "opencode.exe",
+    "shortcuts": ["opencode.exe", "OpenCode"],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
