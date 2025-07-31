@@ -14,6 +14,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **IMPORTANT**: All scripts automatically detect and set `SCOOP_HOME` environment variable.
 
+### Running PowerShell Scripts
+
+Use `-NoProfile` flag to avoid PowerShell profile loading issues:
+```powershell
+powershell.exe -NoProfile -Command ".\bin\checkver.ps1 app-name"
+powershell.exe -NoProfile -Command ".\bin\checkhashes.ps1 app-name"
+powershell.exe -NoProfile -Command ".\bin\formatjson.ps1 app-name"
+```
+
+For scripts requiring execution policy bypass:
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\bin\test.ps1"
+```
+
 ## Repository Context
 
 This is a personal Scoop bucket for Windows package management. Scoop buckets contain JSON manifest files that define how to install, update, and manage Windows applications via the command line.

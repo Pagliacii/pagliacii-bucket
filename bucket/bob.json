@@ -1,5 +1,5 @@
 {
-    "version": "v2.9.1",
+    "version": "4.1.1",
     "description": "Bob is a cross-platform and easy-to-use Neovim version manager, allowing for easy switching between versions right from the command line.",
     "homepage": "https://github.com/MordechaiHadad/bob",
     "license": "MIT",
@@ -9,7 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/MordechaiHadad/bob/releases/download/v2.9.1/bob-windows-x86_64.zip"
+            "url": "https://github.com/MordechaiHadad/bob/releases/download/v4.1.1/bob-windows-x86_64.zip",
+            "hash": "ECEEC21A2D6769CE96713020B92693172953A3E47F3F38A00141007D52B4864A"
         }
     },
     "bin": "bob-windows-x86_64\\bob.exe",
