@@ -1,5 +1,5 @@
 on:
-  pull_request:
+  pull_request_target:
     types: [opened]
 name: Pull Requests
 jobs:
@@ -12,4 +12,3 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          THROW_ERROR: ${{ vars.THROW_ERROR }}
