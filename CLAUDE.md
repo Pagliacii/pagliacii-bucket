@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## PowerShell Commands
 
-- `.\bin\test.ps1`: Run Pester tests to validate all manifests in the bucket  
+- `.\bin\test.ps1`: Run Pester tests to validate all manifests in the bucket
 - `.\bin\checkver.ps1`: Check for version updates across all manifests
 - `.\bin\checkhashes.ps1`: Validate file hashes in manifests
 - `.\bin\formatjson.ps1`: Format JSON manifests consistently
@@ -35,7 +35,7 @@ This is a personal Scoop bucket for Windows package management. Scoop buckets co
 ## Code Structure
 
 - `bucket/`: JSON manifest files, one per application
-- `bucket/app-name.json.template`: Template for creating new manifests  
+- `bucket/app-name.json.template`: Template for creating new manifests
 - `bin/`: PowerShell utility scripts for bucket maintenance
 - `deprecated/`: Deprecated manifests no longer maintained
 
@@ -59,6 +59,6 @@ Each JSON manifest in `bucket/` contains:
 
 - **YOU MUST** run `.\bin\test.ps1` before committing any manifest changes
 - The README apps table is automatically maintained - do not edit manually
-- CI runs on both PowerShell and Windows PowerShell environments  
+- CI runs on both PowerShell and Windows PowerShell environments
 - Excavator workflow runs every 4 hours for automatic updates
 - All manifests should support automatic updates via `autoupdate` configuration
