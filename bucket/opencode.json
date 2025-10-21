@@ -1,7 +1,7 @@
 {
     "version": "0.3.79",
     "description": "An AI coding agent designed for the terminal",
-    "homepage": "https://opencode.ai/",
+    "homepage": "https://github.com/sst/opencode",
     "license": "MIT",
     "depends": [
         "unzip",
