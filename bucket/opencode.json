@@ -1,5 +1,5 @@
 {
-    "version": "1.14.45",
+    "version": "1.14.46",
     "description": "An AI coding agent designed for the terminal",
     "homepage": "https://github.com/sst/opencode",
     "license": "MIT",
@@ -11,8 +11,8 @@
     "notes": "Open source AI coding tool that works with various AI providers like Anthropic, OpenAI, and Google",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sst/opencode/releases/download/v1.14.45/opencode-windows-x64.zip",
-            "hash": "7621479bd686970636a3272187c53fe40493b1956ef1902fad867b8e4ee3b427"
+            "url": "https://github.com/sst/opencode/releases/download/v1.14.46/opencode-windows-x64.zip",
+            "hash": "c33959a92fd3050bbc2ab1646888e3f692b01cb8be55c7ba8632fcfecd1c941a"
         }
     },
     "bin": "opencode.exe",
